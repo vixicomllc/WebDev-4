@@ -10,7 +10,8 @@ def home():
 
 @app.route("/login")
 def login():
-    return "<h1>Login</h1>"
+    print("Entrando al proceso de login")
+    return "<h1>La super página</h1>"
 
 
 if __name__ == "__main__":
