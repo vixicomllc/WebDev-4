@@ -14,5 +14,10 @@ def login():
     return "<h1>La super página</h1>"
 
 
+@app.route("/logout")
+def logout():
+    return "<h1>No me impoLta, no me impoLta, No me impoLta, no me impoLta, No me impoLta, no me impoLta</h1>"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
